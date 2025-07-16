@@ -1,0 +1,130 @@
+
+/* Estilização geral do corpo da página */
+body {
+    /* Define a fonte principal da página */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Define a largura do conteúdo para 80% da largura total da página */
+    width: 80%;
+    /* Centraliza o conteúdo da página */
+    margin: auto;
+    /* Define a cor do texto */
+    color: #444;
+    /* Define a cor de fundo da página */
+    background-color: #ccc;
+    /* Adiciona uma margem inferior para separar do rodapé */
+    margin-bottom: 56px;
+}
+
+/* Estilização do título principal */
+h1 {
+    /* Define a cor de fundo do título */
+    background-color: #aacfd4;
+    /* Define a cor do texto */
+    color: #061761;
+    /* Centraliza o texto */
+    text-align: center;
+    /* Define o tamanho da fonte */
+    font-size: 46px;
+    /* Remove a margem inferior */
+    margin-bottom: 0;
+}
+
+/* estilização dos subtítulos */
+
+h2 {
+    /* Define a cor do texto */
+    color: #061761;
+    /* Define a cor de fundo */
+    background-color: #b6b6b6;
+    /* Define o tamanho da fonte */
+    font-size: 36px;
+    /* Adiciona uma borda na parte inferior */
+    border-bottom: 3px solid;
+    /* Adiciona espaçamento interno */
+    padding: 10px;
+    /* Define uma margem superior maior para separação */
+    margin-top: 48px;
+    /* Define uma margem inferior menor para separação */
+    margin-bottom: 12px;
+}
+
+/* Estilização das listas não ordenadas */
+ul {
+    /* Remove o recuo padrão da lista */
+    padding-left: 0;
+}
+
+/*Classe para centraçizar o texto */
+.center {
+/* Centraliza o texto */
+    text-align: center;
+}
+
+/*Estilização para a legnda/subtítulo*/
+.subtitle {
+/* Remove a margem superior */
+    margin-top: 0;
+/*Define a cor de fundo */
+    background-color: #c6c8c8;
+}
+
+/*Estilização para os links */
+a {
+/*Remove o sublinhado dos links */
+    text-decoration: none;
+}
+
+/*Esilização do menu */
+.menu {
+/* Centraliza os itens do menu */
+    text-align: center;
+}
+
+/*Estilização dos itens da lista do menu */ 
+.menu li {
+    /* Remove o marcador da lista */
+    list-style-type: none;
+    /*Exibe os itens do menu na mesma linha */
+    display: inline-block;
+    /*Remove o padding padrão */
+    padding: 0;  
+}
+
+/*Estilização dos links dentro do menu */
+.menu a {
+    /*Define a cor de fundo dos links do menu */
+    background-color: #c1bebe;
+    /*Adiciona espaçamento interno */
+    padding: 16px;
+    /* Faz com que o link ocupe todo o espaço do elemento */
+    display: block;
+}
+
+.recuo {
+    margin-left: 20px;
+}
+
+/* Estilização dos links do menu ao passar o mouse */
+
+.menu a:hover {
+    /* Muda a cor de fundo */
+    background-color: #333;
+    /* Muda a cor do texto para branco */
+    color: #fff;
+    /*remove o sublinhado */
+    text-decoration: underline;
+}
+
+footer {
+    
+/*Centraliza os itens do menu */
+    text-align: center;
+    /* Define a cor de fundo */
+    background-color: #b6b6b6;
+    /*Define o tamanho da fone */
+    border-top: 3px solid #061761;
+    /* Adiciona espçamento interno */ 
+    padding: 10px;
+    /* Define uma margem superior mais para separação */
+    margin-top: 48px;
+}
